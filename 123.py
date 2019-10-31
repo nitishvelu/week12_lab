@@ -1,3 +1,9 @@
+"""
+Write a function to mimic filter - called myfilter.
+Test this with the following calls.
+1) Given a list of strings, remove all strings having first character as digit.
+l = ["hi","1gff","h3445","6sds","dfdg","234234"]
+"""
 def my_filter(func,itr):
 	l=[]
 	for i in itr:

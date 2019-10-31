@@ -1,3 +1,14 @@
+"""
+Write a function mymap which takes a callback and an iterable, creates a list,
+applies the callback to each element of the iterable and puts the result into
+list and returns the list. mymap should mimic map.
+Test this with the following calls.
+a)Create a list of square of odd numbers from 1 to n.
+b)Given a list of words, return a list of words with ing appended to it.
+my_list = ['morn', 'walk', 'eat', 'sleep']
+c)Given a list of words, return a list of tuples having the word and its length.
+my_list = ['morning', 'walk', 'eat', 'sleep']
+"""
 def mymap(func,itr):
 	l=[]
 	for i in itr:
